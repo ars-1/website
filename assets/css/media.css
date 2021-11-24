@@ -1,0 +1,21 @@
+@media screen and (max-width:600px) {
+    body #about .col-md-7 {
+        display: none !important;
+    }
+    .pconly {
+        display:none;
+    }
+
+    .coldcalling p, .coldcalling ul{
+        font-size: 10px !important;
+    }
+    .glass .card-body p, .glass .card-body ul {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width:600px) {
+    .mobonly {
+        display: none !important;
+    }
+}
