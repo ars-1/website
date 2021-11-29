@@ -165,5 +165,15 @@ body .rlst {
 }
 
 .bg-coldcalling {
-    background: linear-gradient(to bottom right, #e73f84, #170E47)
+    background: linear-gradient(to bottom right, #e73f84, #170E47);
+}
+
+.shimg {
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+.bg-shimg {
+    background-image: url("../img/ils/shimgpurple.png");
+    background-attachment: fixed;
+    background-size: cover;
 }
