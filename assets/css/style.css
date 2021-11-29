@@ -63,6 +63,7 @@ body .about {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-attachment: fixed;
 }
 
 body .about h1 {
