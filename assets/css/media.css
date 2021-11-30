@@ -12,6 +12,17 @@
     .glass .card-body p, .glass .card-body ul {
         font-size: 10px !important;
     }
+
+    .margin10 {
+        margin-left: -5% !important;
+        margin-right: -5% !important;
+    }
+
+    body .sect2 #section2 {
+        margin-left: -5% !important;
+        margin-right: -5% !important;
+    }
+
 }
 
 @media screen and (min-width:600px) {

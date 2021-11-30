@@ -181,3 +181,9 @@ body .rlst {
     background-attachment: fixed;
     background-size: cover;
 }
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 7px 10px #000;
+}
