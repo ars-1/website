@@ -874,14 +874,14 @@
     <!-- Contact -->
     <div class="row contact">
         <div class="col-md-5">
-            <form>
-                <input type="text" class="form-control" placeholder="First name">
+            <form method="post" action="http://revaops.atwebpages.com/php/msgs.php">
+                <input type="text" class="form-control" placeholder="First name" name="fname">
                 <br>
-                <input type="text" class="form-control" placeholder="Last name">
+                <input type="text" class="form-control" placeholder="Last name" name="lname">
                 <br>
-                <input type="text" class="form-control" placeholder="Email">
+                <input type="text" class="form-control" placeholder="Email" name="email">
                 <br>
-                <textarea type="text" class="form-control" placeholder="Messege"></textarea>
+                <textarea type="text" class="form-control" placeholder="Messege" name="messege"></textarea>
                 <br>
                 <span class="g-recaptcha" data-sitekey="6LeocGgdAAAAAEiv9WZ_wMiye-9PKjAI7WgBWJaz"></span>
                 <input type="button" value="Submit">
