@@ -875,16 +875,16 @@
     <div class="row contact">
         <div class="col-md-5">
             <form method="post" action="http://revaops.atwebpages.com/php/msgs.php">
-                <input type="text" class="form-control" placeholder="First name" name="fname">
+                <input type="text" class="form-control" placeholder="First name" name="fname" required>
                 <br>
-                <input type="text" class="form-control" placeholder="Last name" name="lname">
+                <input type="text" class="form-control" placeholder="Last name" name="lname" required>
                 <br>
-                <input type="text" class="form-control" placeholder="Email" name="email">
+                <input type="text" class="form-control" placeholder="Email" name="email" required>
                 <br>
-                <textarea type="text" class="form-control" placeholder="Messege" name="messege"></textarea>
+                <textarea type="text" class="form-control" placeholder="Messege" name="messege" required></textarea>
                 <br>
                 <span class="g-recaptcha" data-sitekey="6LeocGgdAAAAAEiv9WZ_wMiye-9PKjAI7WgBWJaz"></span>
-                <input type="submit" name="Submit" id="Submit" value="Submit">
+                <input type="submit" name="Submit" id="Submit" value="Submit" class="btn btn-primary">
             </form>
         </div>
         <div class="col-md-5">
